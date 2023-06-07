@@ -8,11 +8,29 @@ body{
     justify-content:center;
     align-items: center;
     height: 100vh;
+    background-color: #3a4667;
 }
 
 .app-container{
-    background-color: antiquewhite;
+    background-color: rgb(249, 238, 225);
     padding: 2em;
     border-radius: 5px;
-    max-width:60%;
+    min-width:60%;
+}
+
+.dice{
+    background-color: #d2ddff;
+    border-radius: 5px;
+    padding:1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    padding:.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(140, 42, 231);
 }
