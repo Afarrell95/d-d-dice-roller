@@ -8,19 +8,20 @@ body{
     justify-content:center;
     align-items: center;
     height: 100vh;
-    background-color: #3a4667;
+    background-color: #1b1145;
     font-family: 'Inknut Antiqua', serif;
 }
 
 .app-container{
-    background-color: rgb(249, 238, 225);
+    background-color: #8947c3;
     padding: 2em;
     border-radius: 5px;
     min-width:90%;
 }
 
 .dice{
-    background-color: #d2ddff;
+    background-color: #bb96dc;
+    color:white;
     border-radius: 5px;
     padding:1em;
     margin: 1em;
@@ -34,8 +35,11 @@ body{
 }
 
 button{
-    padding:.5em;
+    font-size: 1rem;
+    padding:.2em 1em;
     border: none;
     border-radius: 5px;
-    background-color: rgb(140, 42, 231);
+    color:white;
+    background-color: #40227a;
+    font-family: 'Inknut Antiqua', serif;
 }
