@@ -9,13 +9,14 @@ body{
     align-items: center;
     height: 100vh;
     background-color: #3a4667;
+    font-family: 'Inknut Antiqua', serif;
 }
 
 .app-container{
     background-color: rgb(249, 238, 225);
     padding: 2em;
     border-radius: 5px;
-    min-width:60%;
+    min-width:90%;
 }
 
 .dice{
@@ -26,6 +27,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.roll{
+    font-size: 1.5rem;;
 }
 
 button{
